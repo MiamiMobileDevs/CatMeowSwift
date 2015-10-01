@@ -13,6 +13,9 @@
 		8E5F52591BBD9A8800791C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F52581BBD9A8800791C0F /* Images.xcassets */; };
 		8E5F525C1BBD9A8800791C0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F525A1BBD9A8800791C0F /* LaunchScreen.xib */; };
 		8E5F52681BBD9A8800791C0F /* swiftMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F52671BBD9A8800791C0F /* swiftMeowTests.swift */; };
+		8E96F5711BBDBB2600FBDFCB /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E96F5701BBDBB2600FBDFCB /* PlaySoundViewController.swift */; };
+		8E96F5731BBDBEA700FBDFCB /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E96F5721BBDBEA700FBDFCB /* meow.wav */; };
+		8E96F5751BBDC1BA00FBDFCB /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E96F5741BBDC1BA00FBDFCB /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8E5F52611BBD9A8800791C0F /* swiftMeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftMeowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5F52661BBD9A8800791C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E5F52671BBD9A8800791C0F /* swiftMeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftMeowTests.swift; sourceTree = "<group>"; };
+		8E96F5701BBDBB2600FBDFCB /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		8E96F5721BBDBEA700FBDFCB /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = "<group>"; };
+		8E96F5741BBDC1BA00FBDFCB /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 			children = (
 				8E5F52511BBD9A8800791C0F /* AppDelegate.swift */,
 				8E5F52531BBD9A8800791C0F /* ViewController.swift */,
+				8E96F5701BBDBB2600FBDFCB /* PlaySoundViewController.swift */,
 				8E5F52551BBD9A8800791C0F /* Main.storyboard */,
 				8E5F52581BBD9A8800791C0F /* Images.xcassets */,
 				8E5F525A1BBD9A8800791C0F /* LaunchScreen.xib */,
@@ -90,6 +97,8 @@
 		8E5F524F1BBD9A8800791C0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8E96F5741BBDC1BA00FBDFCB /* movie_quote.mp3 */,
+				8E96F5721BBDBEA700FBDFCB /* meow.wav */,
 				8E5F52501BBD9A8800791C0F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E96F5731BBDBEA700FBDFCB /* meow.wav in Resources */,
 				8E5F52571BBD9A8800791C0F /* Main.storyboard in Resources */,
+				8E96F5751BBDC1BA00FBDFCB /* movie_quote.mp3 in Resources */,
 				8E5F525C1BBD9A8800791C0F /* LaunchScreen.xib in Resources */,
 				8E5F52591BBD9A8800791C0F /* Images.xcassets in Resources */,
 			);
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E5F52541BBD9A8800791C0F /* ViewController.swift in Sources */,
+				8E96F5711BBDBB2600FBDFCB /* PlaySoundViewController.swift in Sources */,
 				8E5F52521BBD9A8800791C0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +423,7 @@
 				8E5F526D1BBD9A8800791C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E5F526E1BBD9A8800791C0F /* Build configuration list for PBXNativeTarget "swiftMeowTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				8E5F52701BBD9A8800791C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
